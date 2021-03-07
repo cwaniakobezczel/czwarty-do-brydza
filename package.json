@@ -1,0 +1,24 @@
+{
+  "name": "czwarty-do-brydza",
+  "version": "1.0.0",
+  "description": "Application for exchanging board games",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cwaniakobezczel/czwarty-do-brydza.git"
+  },
+  "author": "Agata Saczek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cwaniakobezczel/czwarty-do-brydza/issues"
+  },
+  "homepage": "https://github.com/cwaniakobezczel/czwarty-do-brydza#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}
